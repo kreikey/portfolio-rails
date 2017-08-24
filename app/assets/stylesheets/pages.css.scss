@@ -1,0 +1,122 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header {
+  background-color: slategray;
+  color: orange;
+	padding: 10px 0;
+}
+
+.nav {
+  padding-top: 10px;
+  
+  p {
+    float: right;
+    padding: 10px 15px;
+		color: orange;
+    background-color: slategray;
+    border: 2px solid slategray;
+    border-radius: 5px;
+  }
+  p:hover {
+    border: 2px solid orange;
+  }
+  
+  li {
+  display: inline-block;
+	}
+
+	a {
+  border: 2px solid slategray;
+  background-color: slategray;
+  color: orange;
+  border-radius: 5px;
+	} 
+  
+  li a:hover, li a:focus {
+  	border: 2px dashed orange;
+  	background-color: slategray;
+  }
+}
+
+.main {
+/*  background-color: #FFD690; */
+  background: url("https://image.ibb.co/n6HoZ5/IMG_9117_smaller.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 600px;
+  padding-top: 40px;
+  color: slategray;
+  text-align: right;
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+  }
+  
+  a {
+    display: block;
+		float: right;
+    border: 2px solid slategray;
+    color: orange;
+    background-color: slategray;
+    padding: 10px 15px;
+    margin: 20px 0 0;    
+    transition: background-color .5s, border-color .5s, color .5s;
+    border-radius: 5px;
+}
+  
+  a:hover {
+    color: slategray;
+    background-color: orange;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 2px solid orange;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .important {
+    background-color: #aaa;
+    color: #fff;
+    padding: 0 10px;
+  }
+}
+
+.footer {
+  background-color: slategray;
+  padding: 10px 0 5px;
+  
+  ul {
+    list-style: none;
+		padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
+  
+  a {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  font-weight: 300;
+  font-size: 12px;
+}
